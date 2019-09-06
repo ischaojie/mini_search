@@ -30,7 +30,7 @@
         </div>
         <div class="right">
             <a-input-search
-                    v-model="searchText"
+                    v-focus v-model="searchText"
                     size="large"
                     @search="searchResult"/>
             <div v-for="item in result" v-bind:key="item.id">

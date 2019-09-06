@@ -2,9 +2,10 @@
     <div>
         <a-card hoverable>
             <a-card-meta
-                    :title="info._source.name"
-                    :description="info._source.genre">
+                    :title="info._source.name+' ('+info._source.time+')'"
+                    :description="info._source.country+'---'+info._source.genre+'---'+info._source.director">
                 <a-avatar style="backgroundColor:#d04713" slot="avatar">{{info._source.star}}</a-avatar>
+
             </a-card-meta>
             <div class="describe">“{{info._source.describe}}”</div>
             <div style="text-align: right">{{info._score}}</div>

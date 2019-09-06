@@ -13,8 +13,14 @@ class DoubanItem(scrapy.Item):
     id = scrapy.Field()
     # 名称
     name = scrapy.Field()
+    # 上映时间
+    time = scrapy.Field()
+    # 国家
+    country = scrapy.Field()
     # 链接
     url = scrapy.Field()
+    # 导演
+    director = scrapy.Field()
     # 简介
     genre = scrapy.Field()
     # 评分

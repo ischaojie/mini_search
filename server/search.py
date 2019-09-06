@@ -13,13 +13,15 @@ def search(query: str):
         "query": {
             "multi_match": {
                 "query": query,
-                "fields": ["name", "genre", "describe"]
+                "fields": ["name", "genre", "country", "director", "describe"]
             }
         },
         "highlight": {
             "fields": {
                 "name": {},
                 "genre": {},
+                "country": {},
+                "director": {},
                 "describe": {}
             }
         }
