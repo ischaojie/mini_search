@@ -45,7 +45,6 @@
 <script>
     import axios from 'axios'
     import SearchResult from "../components/SearchResult";
-    import Logo from "@/components/Logo"
 
     export default {
         name: "Search",
@@ -56,8 +55,7 @@
             }
         },
         components: {
-            searchResult: SearchResult,
-            logo: Logo
+            searchResult: SearchResult
         },
 
         methods: {

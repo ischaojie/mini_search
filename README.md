@@ -4,10 +4,11 @@
 just for fun,for learn.
 
 ![hakuna](hakuna.gif)
-## how to run？
+
+### how to run？
 ```
-# 安装中文分词插件el
-#
+# 安装中文分词插件ik
+# https://github.com/medcl/elasticsearch-analysis-ik
 > elasticsearch-plugin install <>
 # 启动elasticsearch
 > bin/elasticsearch
@@ -28,5 +29,15 @@ scrapy crawl douban
 > npm install
 > npm run serve
 
-# localhost:8080
+# 访问: localhost:8080
 ```
+
+### mini系列
+[mini_todo](https://github.com/shiniao/mini_todo)——基于 go 语言的 todo restful-api 实践(gin+vue)
+
+[mini_sms_classify](https://github.com/shiniao/mini_sms_classify)——小型垃圾邮件分类系统（naive_bayes+flask+vue）
+
+[mini_mnist](https://github.com/shiniao/mini_mnist)——mini手写数字识别(CNN+flask+vue)
+
+### 联系我
+email: zhuzhezhe95@gmail.com
