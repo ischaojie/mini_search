@@ -1,5 +1,5 @@
 Flask==1.1.1
 Flask-Cors==3.0.8
 elasticsearch==7.0.4
-scrapy==1.6.0
+scrapy==1.8.2
 ScrapyElasticSearch==0.9.1
